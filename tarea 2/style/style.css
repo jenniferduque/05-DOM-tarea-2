@@ -1,0 +1,77 @@
+*{
+margin: 0;
+box-sizing: border-box;
+
+}
+
+body{
+    
+    font-family: Arial;
+    background-color: rgb(221, 23, 23);
+}
+
+.container{
+    background-color: #00a2ff;
+    grid-auto-rows: auto;
+    display: flex;
+
+}
+
+#main-content{
+
+    width: 80%;
+    position: relative;
+    display: flex;
+    flex-wrap:wrap;
+    justify-content: center;
+    margin: auto;
+
+
+}
+
+.card{
+
+    position: relative;
+    width: 252px;
+    height: 350px;
+    margin: 15px;
+    
+}
+
+p{
+    position: absolute;
+    margin-left: 15px;
+    margin-top: 300px;
+    color: aliceblue;
+    font-size: small;
+    
+    
+}
+
+.card img{
+
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    object-fit: cover;
+    
+}
+
+.container:hover{
+
+    transform: scale(1.1);
+    box-shadow: 13px 15px 37px black;
+}
+
+.bottomleft p {
+    position: absolute;
+    bottom: 8px;
+    left: 16px;
+    font-size: 18px;
+  }
+
+  .textoCiudad{
+
+    margin-top: 320px;
+
+  }
